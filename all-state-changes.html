@@ -8,9 +8,11 @@
     <meta charset="utf-8">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="ANN Election Data" />
-    <meta name="twitter:description" content="All state changes, updated every five minutes using NYT data." />
+    <meta name="twitter:description" content="Battleground state changes, updated every five minutes using NYT data." />
+    <meta name="twitter:url" content="https://alex.github.io/nyt-2020-election-scraper/battleground-state-changes.html" />
     <meta property="og:title" content="ANN Election Data" />
-    <meta property="og:description" content="All state changes, updated every five minutes using NYT data." />
+    <meta property="og:description" content="Battleground state changes, updated every five minutes using NYT data." />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/772?s=400&u=7c00c7c8ac3691da556d7686e16ff08b797d4a38&v=4" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <link rel="apple-touch-icon" href="icon.png">
     <meta name="apple-mobile-web-app-title" content="2020 Results">
@@ -201,14 +203,15 @@
                 All data below is sourced from an unofficial API powering the New York Times’ election site.
                 <strong>The estimated votes remaining and county-level breakdown values might be off</strong>.
                 Consult state websites and officials for the most accurate and up-to-date figures.
+                This website is <a href="https://github.com/alex/nyt-2020-election-scraper">open source</a> and was written by <a href="https://github.com/alex/nyt-2020-election-scraper/graphs/contributors">these people</a>.
             </p>
         </div>
     </div>
     <div class="row">
         <div class="col-sm">
-            <p class="float-left" id="timestamps">Last scrape: <span class="timestamp">2020-11-09 22:21:44 UTC</span> | Last batch: <span class="timestamp">2020-11-08 23:50:34 UTC</span> (Florida, Kansas)</p>
-            <div id="template-hash" style="display: none;">9b5bdda3d9c8fdab47cf8819888f14ed71ce6c76242b9fc20ebd8531fed14814</div>
-            <div id="page-metadata" style="display: none;">{"template_hash": "9b5bdda3d9c8fdab47cf8819888f14ed71ce6c76242b9fc20ebd8531fed14814", "results_hash": "d6fee38ad972202d334732dba4697ae34a7b3cce58fbf26a82f707d453af1612", "states_updated": ["Florida", "Kansas"]}</div>
+            <p class="float-left" id="timestamps">Last scrape: <span class="timestamp">2020-11-08 21:13:23 UTC</span> | Last batch: <span class="timestamp">2020-11-08 20:06:53 UTC</span> (Pennsylvania)</p>
+            <div id="template-hash" style="display: none;">5a9e47cd26ddb34ce3b815f9e5aa977316bd8d9164629927e96353999e5e04e1</div>
+            <div id="page-metadata" style="display: none;">{"template_hash": "5a9e47cd26ddb34ce3b815f9e5aa977316bd8d9164629927e96353999e5e04e1", "results_hash": "12170cb3b9d95643427d65c30e1704f0c95e17be3969db659797017c97d8a8fe", "states_updated": ["Pennsylvania"]}</div>
         </div>
         <div class="col-sm">
             <p class="float-right">
@@ -460,7 +463,7 @@
                     <span class="statename">Arizona (EV: 11)</span>
                 </span>
                 <br>
-                Biden leads with 1,643,488 votes (49.5%), Trump trails with 1,626,536 votes (49.0%).
+                Biden leads with 1,633,181 votes (49.5%), Trump trails with 1,613,833 votes (48.9%).
             </td>
         </tr>
         <tr>
@@ -474,61 +477,6 @@
             <th class="has-tip" data-toggle="tooltip" title="What percentage of the remaining votes does the trailing candidate need to flip the lead. 'Flip' happens at 50%, not at 0%. Note that third party candidates are not included in the batch breakdown! This is intentional.">Hurdle</th>
         </tr>
         </thead>
-    
-
-        <tr id='arizona-2020-11-08T23:35:28.185000'>
-            <td class="timestamp">2020-11-08 23:35:28 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">16,952</td>
-            <td class="numeric">81,536</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Pinal:</strong> 81%<br><strong>Apache:</strong> 19%" title="Estimated county-level breakdown: Pinal: 81%, Apache: 19%"> 16,739</td>
-    
-            <td>
-                Biden 40.3% /
-                59.7% Trump
-            </td>
-        
-            <td>
-                Trump is averaging 53.8%
-            </td>
-        
-            <td class="hurdle">Trump needs 59.6%</td>
-        </tr>
-    
-
-        <tr id='arizona-2020-11-08T23:26:06.891000'>
-            <td class="timestamp">2020-11-08 23:26:06 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">20,102</td>
-            <td class="numeric">98,275</td>
-            <td class="numeric">      0</td>
-    <td>N/A</td>
-            <td>
-                Trump is averaging 53.3%
-            </td>
-        
-            <td class="hurdle">Trump needs 59.4%</td>
-        </tr>
-    
-
-        <tr id='arizona-2020-11-08T23:08:18.531000'>
-            <td class="timestamp">2020-11-08 23:08:18 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">20,102</td>
-            <td class="numeric">110,925</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Maricopa:</strong> 100%" title="Estimated county-level breakdown: Maricopa: 100%">  6,862</td>
-    
-            <td>
-                Biden 55.6% /
-                44.4% Trump
-            </td>
-        
-            <td>
-                Trump is averaging 53.3%
-            </td>
-        
-            <td class="hurdle">Trump needs 58.3%</td>
-        </tr>
     
 
         <tr id='arizona-2020-11-08T19:32:33.789000'>
@@ -5297,7 +5245,7 @@
                     <span class="statename">Florida (EV: 29)</span>
                 </span>
                 <br>
-                Trump leads with 5,667,822 votes (51.2%), Biden trails with 5,294,758 votes (47.8%).
+                Trump leads with 5,667,752 votes (51.2%), Biden trails with 5,294,724 votes (47.8%).
             </td>
         </tr>
         <tr>
@@ -5311,41 +5259,6 @@
             <th class="has-tip" data-toggle="tooltip" title="What percentage of the remaining votes does the trailing candidate need to flip the lead. 'Flip' happens at 50%, not at 0%. Note that third party candidates are not included in the batch breakdown! This is intentional.">Hurdle</th>
         </tr>
         </thead>
-    
-
-        <tr id='florida-2020-11-08T23:50:34.441000'>
-            <td class="timestamp">2020-11-08 23:50:34 UTC</td>
-            <td class="Trump">Trump</td>
-            <td class="numeric">373,064</td>
-            <td class="numeric">246,072</td>
-            <td class="numeric">     17</td>
-    <td>N/A</td>
-            <td>
-                Biden is averaging 53.6%
-            </td>
-        
-            <td class="hurdle">Biden needs 125.3%</td>
-        </tr>
-    
-
-        <tr id='florida-2020-11-08T23:43:40.345000'>
-            <td class="timestamp">2020-11-08 23:43:40 UTC</td>
-            <td class="Trump">Trump</td>
-            <td class="numeric">373,064</td>
-            <td class="numeric">246,089</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Bay:</strong> 100%" title="Estimated county-level breakdown: Bay: 100%">    106</td>
-    
-            <td>
-                Trump 67.3% /
-                32.7% Biden
-            </td>
-        
-            <td>
-                Biden is averaging 53.6%
-            </td>
-        
-            <td class="hurdle">Biden needs 125.3%</td>
-        </tr>
     
 
         <tr id='florida-2020-11-08T19:32:33.789000'>
@@ -9224,7 +9137,7 @@
                     <span class="statename">Illinois (EV: 20)</span>
                 </span>
                 <br>
-                Biden leads with 3,025,393 votes (55.4%), Trump trails with 2,333,409 votes (42.7%).
+                Biden leads with 3,016,834 votes (55.3%), Trump trails with 2,330,734 votes (42.7%).
             </td>
         </tr>
         <tr>
@@ -9238,26 +9151,6 @@
             <th class="has-tip" data-toggle="tooltip" title="What percentage of the remaining votes does the trailing candidate need to flip the lead. 'Flip' happens at 50%, not at 0%. Note that third party candidates are not included in the batch breakdown! This is intentional.">Hurdle</th>
         </tr>
         </thead>
-    
-
-        <tr id='illinois-2020-11-08T22:12:39.559000'>
-            <td class="timestamp">2020-11-08 22:12:39 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">691,984</td>
-            <td class="numeric">571,292</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Cook:</strong> 100%" title="Estimated county-level breakdown: Cook: 100%"> 11,422</td>
-    
-            <td>
-                Biden 76.2% /
-                23.8% Trump
-            </td>
-        
-            <td>
-                Trump is averaging 23.0%
-            </td>
-        
-            <td class="hurdle">Trump needs 109.6%</td>
-        </tr>
     
 
         <tr id='illinois-2020-11-07T03:36:25.896000'>
@@ -10863,7 +10756,7 @@
                     <span class="statename">Kansas (EV: 6)</span>
                 </span>
                 <br>
-                Trump leads with 754,950 votes (56.5%), Biden trails with 551,219 votes (41.3%).
+                Trump leads with 748,608 votes (56.7%), Biden trails with 542,646 votes (41.1%).
             </td>
         </tr>
         <tr>
@@ -10877,86 +10770,6 @@
             <th class="has-tip" data-toggle="tooltip" title="What percentage of the remaining votes does the trailing candidate need to flip the lead. 'Flip' happens at 50%, not at 0%. Note that third party candidates are not included in the batch breakdown! This is intentional.">Hurdle</th>
         </tr>
         </thead>
-    
-
-        <tr id='kansas-2020-11-08T23:50:34.441000'>
-            <td class="timestamp">2020-11-08 23:50:34 UTC</td>
-            <td class="Trump">Trump</td>
-            <td class="numeric">203,731</td>
-            <td class="numeric">8,256</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Reno:</strong> 80%<br><strong>Osage:</strong> 8%<br><strong>Kingman:</strong> 6%<br><strong>Norton:</strong> 3%<br><strong>Sherman:</strong> 3%" title="Estimated county-level breakdown: Reno: 80%, Osage: 8%, Kingman: 6%, Norton: 3%, Sherman: 3%">    122</td>
-    
-            <td>
-                Trump 55.9% /
-                44.1% Biden
-            </td>
-        
-            <td>
-                Biden is averaging 54.9%
-            </td>
-        
-            <td class="hurdle">Biden needs 1282.7%</td>
-        </tr>
-    
-
-        <tr id='kansas-2020-11-08T23:43:40.345000'>
-            <td class="timestamp">2020-11-08 23:43:40 UTC</td>
-            <td class="Trump">Trump</td>
-            <td class="numeric">203,717</td>
-            <td class="numeric">8,378</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Jefferson:</strong> 77%<br><strong>Coffey:</strong> 13%<br><strong>Comanche:</strong> 9%<br><strong>Greeley:</strong> 2%" title="Estimated county-level breakdown: Jefferson: 77%, Coffey: 13%, Comanche: 9%, Greeley: 2%">     47</td>
-    
-            <td>
-                Trump 69.6% /
-                30.4% Biden
-            </td>
-        
-            <td>
-                Biden is averaging 54.8%
-            </td>
-        
-            <td class="hurdle">Biden needs 1264.7%</td>
-        </tr>
-    
-
-        <tr id='kansas-2020-11-08T23:35:28.185000'>
-            <td class="timestamp">2020-11-08 23:35:28 UTC</td>
-            <td class="Trump">Trump</td>
-            <td class="numeric">203,699</td>
-            <td class="numeric">8,425</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Clay:</strong> 72%<br><strong>Bourbon:</strong> 28%" title="Estimated county-level breakdown: Clay: 72%, Bourbon: 28%">     18</td>
-    
-            <td>
-                Trump 72.2% /
-                27.8% Biden
-            </td>
-        
-            <td>
-                Biden is averaging 54.7%
-            </td>
-        
-            <td class="hurdle">Biden needs 1257.8%</td>
-        </tr>
-    
-
-        <tr id='kansas-2020-11-08T22:49:35.429000'>
-            <td class="timestamp">2020-11-08 22:49:35 UTC</td>
-            <td class="Trump">Trump</td>
-            <td class="numeric">203,691</td>
-            <td class="numeric">8,443</td>
-            <td class="numeric"> 15,243</td>
-    
-            <td>
-                Trump 42.3% /
-                57.7% Biden
-            </td>
-        
-            <td>
-                Biden is averaging 54.7%
-            </td>
-        
-            <td class="hurdle">Biden needs 1255.2%</td>
-        </tr>
     
 
         <tr id='kansas-2020-11-06T23:43:16.543000'>
@@ -24744,7 +24557,7 @@
                     <span class="statename">Pennsylvania (EV: 20)</span>
                 </span>
                 <br>
-                Biden leads with 3,358,920 votes (49.7%), Trump trails with 3,315,726 votes (49.0%).
+                Biden leads with 3,358,109 votes (49.7%), Trump trails with 3,314,707 votes (49.0%).
             </td>
         </tr>
         <tr>
@@ -24758,26 +24571,6 @@
             <th class="has-tip" data-toggle="tooltip" title="What percentage of the remaining votes does the trailing candidate need to flip the lead. 'Flip' happens at 50%, not at 0%. Note that third party candidates are not included in the batch breakdown! This is intentional.">Hurdle</th>
         </tr>
         </thead>
-    
-
-        <tr id='pennsylvania-2020-11-08T21:12:23.845000'>
-            <td class="timestamp">2020-11-08 21:12:23 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">43,194</td>
-            <td class="numeric">67,830</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Lancaster:</strong> 100%" title="Estimated county-level breakdown: Lancaster: 100%">  1,858</td>
-    
-            <td>
-                Biden 44.3% /
-                55.7% Trump
-            </td>
-        
-            <td>
-                Trump is averaging 25.8%
-            </td>
-        
-            <td class="hurdle">Trump needs 81.2%</td>
-        </tr>
     
 
         <tr id='pennsylvania-2020-11-08T20:06:53.837000'>
@@ -31534,7 +31327,7 @@
                     <span class="statename">Virginia (EV: 13)</span>
                 </span>
                 <br>
-                Biden leads with 2,391,548 votes (54.1%), Trump trails with 1,961,346 votes (44.3%).
+                Biden leads with 2,390,627 votes (54.1%), Trump trails with 1,960,895 votes (44.4%).
             </td>
         </tr>
         <tr>
@@ -31548,66 +31341,6 @@
             <th class="has-tip" data-toggle="tooltip" title="What percentage of the remaining votes does the trailing candidate need to flip the lead. 'Flip' happens at 50%, not at 0%. Note that third party candidates are not included in the batch breakdown! This is intentional.">Hurdle</th>
         </tr>
         </thead>
-    
-
-        <tr id='virginia-2020-11-08T22:31:36.995000'>
-            <td class="timestamp">2020-11-08 22:31:36 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">430,202</td>
-            <td class="numeric">156,500</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Bedford:</strong> 100%" title="Estimated county-level breakdown: Bedford: 100%">    443</td>
-    
-            <td>
-                Biden 45.1% /
-                54.9% Trump
-            </td>
-        
-            <td>
-                Trump is averaging 37.1%
-            </td>
-        
-            <td class="hurdle">Trump needs 186.7%</td>
-        </tr>
-    
-
-        <tr id='virginia-2020-11-08T21:38:15.464000'>
-            <td class="timestamp">2020-11-08 21:38:15 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">430,243</td>
-            <td class="numeric">156,943</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Alexandria:</strong> 96%<br><strong>Smyth:</strong> 4%" title="Estimated county-level breakdown: Alexandria: 96%, Smyth: 4%">    993</td>
-    
-            <td>
-                Biden 77.0% /
-                23.0% Trump
-            </td>
-        
-            <td>
-                Trump is averaging 36.8%
-            </td>
-        
-            <td class="hurdle">Trump needs 186.3%</td>
-        </tr>
-    
-
-        <tr id='virginia-2020-11-08T20:31:12.382000'>
-            <td class="timestamp">2020-11-08 20:31:12 UTC</td>
-            <td class="Biden">Biden</td>
-            <td class="numeric">429,730</td>
-            <td class="numeric">157,936</td>
-            <td class="has-tip numeric" data-toggle="tooltip" data-html="true" data-title="<strong>Estimated county-level breakdown:</strong><br><strong>Salem:</strong> 100%" title="Estimated county-level breakdown: Salem: 100%">      2</td>
-    
-            <td>
-                Biden  0.0% /
-                100.0% Trump
-            </td>
-        
-            <td>
-                Trump is averaging 37.1%
-            </td>
-        
-            <td class="hurdle">Trump needs 185.3%</td>
-        </tr>
     
 
         <tr id='virginia-2020-11-08T19:32:33.789000'>
